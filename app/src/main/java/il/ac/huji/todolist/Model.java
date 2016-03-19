@@ -1,7 +1,26 @@
 package il.ac.huji.todolist;
 
-/**
- * Created by EstherShlomi on 3/18/2016.
- */
-public class Model {
+import java.util.Date;
+
+
+public class Model{
+
+    private String title;
+    private Long date;
+
+    public Model(String title, Long date) {
+        super();
+        this.title = title;
+        this.date = date;
+    }
+
+    public String GetTitle() {
+        return this.title;
+    }
+
+    public Long GetDate() {
+        return this.date;
+    }
+
+
 }

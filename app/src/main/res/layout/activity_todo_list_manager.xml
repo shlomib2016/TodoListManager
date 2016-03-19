@@ -15,13 +15,6 @@
         android:orientation="vertical"
         >
 
-        <EditText
-            android:id="@+id/edtNewItem"
-            android:layout_marginTop="30dp"
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:maxLines="4"
-        android:hint="Enter your task here." />
 
         <ListView
             android:id="@+id/lstTodoItems"
